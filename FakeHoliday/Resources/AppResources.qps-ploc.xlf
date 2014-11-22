@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="FakeHoliday" product-version="1.3.1.0" build-num="1">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit translate="yes" id="Resx/ResourceFlowDirection" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ResourceLanguage" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">qps-ploc</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ApplicationTitle" xml:space="preserve">
+          <source>Fake Shots</source>
+          <target state="new">Fake Shots</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarButtonText" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarMenuItemText" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/PrivacyPageTitle" xml:space="preserve">
+          <source>Privacy</source>
+          <target state="new">Privacy</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MainPageTitle" xml:space="preserve">
+          <source>Foreground</source>
+          <target state="new">Foreground</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/BlendPageTitle" xml:space="preserve">
+          <source>Blend image</source>
+          <target state="new">Blend image</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/BackgroundSelectionPageTitle" xml:space="preserve">
+          <source>Background</source>
+          <target state="new">Background</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HelpPageTitle" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

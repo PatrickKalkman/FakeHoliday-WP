@@ -1,0 +1,68 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="FakeHoliday.Views.HelpPage"
+    Style="{StaticResource DefaultPage}"      
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationName" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer >
+                <StackPanel>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+                        This application allows you to create fake holiday pictures for fun. This means that you can blend two images seamlessly together.
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">To get started with this, you must first open an images from the Photos gallery by tapping on the image icon in the application bar in this application.
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">
+                        First step is to mark the image foreground and background areas by drawing annotations on the image using two different colors. Notice that it is not necessary to paint the whole areas, but only to give hints to the segmenter. The preview is generated when pressing the magic wand button, the preview shows the generated foreground/background segmentations.
+                    </TextBlock>
+                    <Image Source="../Assets/Help/Help1.png"></Image>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">
+                        When you are happy with the resulting mask, it is time to select your background. Press the</TextBlock>
+                    <Image Source="../Assets/photo.fix.undo.png" Width="48" Height="48"/>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">
+                        button to go to the background selection screen.
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">
+                        Background images can be selected from the application or from your Photo gallery.
+                    </TextBlock>
+                    <Image Source="../Assets/Help/Help2.png"></Image>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">
+                        After you selected your background from either the Photo gallery or the application, both images are blended together. The last step is optimizing and saving your image to your Photo gallery.
+                    </TextBlock>
+                    <Image Source="../Assets/Help/Help3.png"></Image>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">
+                        By pressing the check button the result gets saved into your Photo gallery.
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,15,0,0">
+                    </TextBlock>
+                </StackPanel>
+            </ScrollViewer>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
